@@ -12,6 +12,7 @@ const navItems = [
   { href: '/scd-risk', label: 'SCD Risk', icon: '⚠️' },
   { href: '/management', label: 'Management', icon: '💊' },
   { href: '/lifestyle', label: 'Lifestyle', icon: '🏃' },
+  { href: '/calculator', label: 'HCM Calculator', icon: '🧮' },
   { href: '/ask', label: 'Ask NotebookLM', icon: '🤖' },
 ]
 

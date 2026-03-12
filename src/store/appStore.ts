@@ -14,6 +14,9 @@ interface AppState {
   lifestyleTab: string
   setLifestyleTab: (tab: string) => void
 
+  calculatorTab: string
+  setCalculatorTab: (tab: string) => void
+
   resetAll: () => void
 }
 
@@ -32,11 +35,15 @@ export const useAppStore = create<AppState>()(
       lifestyleTab: 'exercise',
       setLifestyleTab: (tab) => set({ lifestyleTab: tab }),
 
+      calculatorTab: 'esc-scd',
+      setCalculatorTab: (tab) => set({ calculatorTab: tab }),
+
       resetAll: () => set({
         diagnosisTab: 'clinical',
         scdRiskTab: 'adult',
         managementTab: 'obstructive-pharm',
         lifestyleTab: 'exercise',
+        calculatorTab: 'esc-scd',
       }),
     }),
     { name: 'hcm2024-app' }
