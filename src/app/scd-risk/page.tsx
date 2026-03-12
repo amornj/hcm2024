@@ -17,12 +17,12 @@ export default function SCDRiskPage() {
       <h1 className="text-2xl font-bold text-primary mb-2">SCD Risk Assessment & Prevention</h1>
       <p className="text-sm text-gray-600 mb-4">Section 7 — 2024 HCM Guideline</p>
 
-      <div className="flex gap-1 mb-4 overflow-x-auto pb-1">
+      <div className="flex flex-wrap gap-1 mb-4">
         {tabs.map((t) => (
           <button
             key={t.id}
             onClick={() => setScdRiskTab(t.id)}
-            className={`tab-btn whitespace-nowrap ${scdRiskTab === t.id ? 'tab-btn-active' : 'tab-btn-inactive'}`}
+            className={`tab-btn ${scdRiskTab === t.id ? 'tab-btn-active' : 'tab-btn-inactive'}`}
           >
             {t.label}
           </button>

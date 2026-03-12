@@ -19,12 +19,12 @@ export default function ManagementPage() {
       <h1 className="text-2xl font-bold text-primary mb-2">Management of HCM</h1>
       <p className="text-sm text-gray-600 mb-4">Section 8 — 2024 HCM Guideline</p>
 
-      <div className="flex gap-1 mb-4 overflow-x-auto pb-1">
+      <div className="flex flex-wrap gap-1 mb-4">
         {tabs.map((t) => (
           <button
             key={t.id}
             onClick={() => setManagementTab(t.id)}
-            className={`tab-btn whitespace-nowrap ${managementTab === t.id ? 'tab-btn-active' : 'tab-btn-inactive'}`}
+            className={`tab-btn ${managementTab === t.id ? 'tab-btn-active' : 'tab-btn-inactive'}`}
           >
             {t.label}
           </button>

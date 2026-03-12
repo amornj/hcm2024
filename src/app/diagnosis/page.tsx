@@ -20,12 +20,12 @@ export default function DiagnosisPage() {
       <h1 className="text-2xl font-bold text-primary mb-2">Diagnosis, Initial Evaluation & Follow-Up</h1>
       <p className="text-sm text-gray-600 mb-4">Section 6 — 2024 HCM Guideline</p>
 
-      <div className="flex gap-1 mb-4 overflow-x-auto pb-1">
+      <div className="flex flex-wrap gap-1 mb-4">
         {tabs.map((t) => (
           <button
             key={t.id}
             onClick={() => setDiagnosisTab(t.id)}
-            className={`tab-btn whitespace-nowrap ${diagnosisTab === t.id ? 'tab-btn-active' : 'tab-btn-inactive'}`}
+            className={`tab-btn ${diagnosisTab === t.id ? 'tab-btn-active' : 'tab-btn-inactive'}`}
           >
             {t.label}
           </button>
