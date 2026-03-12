@@ -1,7 +1,7 @@
 # HCM2024 — Development Guide
 
 ## Project Overview
-Clinician-facing Next.js app encoding the **2024 AHA/ACC/AMSSM/HRS/PACES/SCMR Guideline for the Management of Hypertrophic Cardiomyopathy** (Ommen SR et al., Circulation 2024;149:e1239–e1311).
+Clinician-facing Next.js app encoding the **2024 AHA/ACC/AMSSM/HRS/PACES/SCMR Guideline for the Management of Hypertrophic Cardiomyopathy** (Ommen SR et al., Circulation 2024;149:e1239–e1311), enriched with clinical insights from **Braunwald E. Hypertrophic Cardiomyopathy. NEJM 2025;393:1004-15**.
 
 ## Tech Stack
 - Next.js 14+ (App Router), TypeScript, Tailwind CSS

@@ -158,6 +158,53 @@ export default function DiagnosisPage() {
               </ul>
             </div>
           </div>
+
+          <div className="card border-l-4 border-indigo-400">
+            <h2 className="card-header">Table 1 — Major Applications of Imaging in HCM</h2>
+            <p className="text-xs text-gray-500 mb-3">Adapted from Braunwald, NEJM 2025</p>
+
+            <div className="mb-4">
+              <h3 className="font-semibold text-gray-800 text-sm mb-2">Echocardiography</h3>
+              <ul className="text-sm text-gray-700 space-y-1">
+                <li>• Establishing diagnosis</li>
+                <li>• Detection of LVOT obstruction before and after provocation (Valsalva, exercise)</li>
+                <li>• Measuring LV wall thickness (asymmetric hypertrophy)</li>
+                <li>• Detection of diastolic dysfunction</li>
+                <li>• Detection of systolic anterior motion of mitral valve</li>
+                <li>• Measurement of left atrial volume</li>
+                <li>• Phenotypic conversion from phenotype-negative to positive on serial studies</li>
+                <li>• Detection/assessment of mitral regurgitation</li>
+                <li>• Identification of uncommon hypertrophy sites (apex, mid-LV)</li>
+                <li>• Detection of MV and papillary muscle abnormalities</li>
+                <li>• Elucidation of SRT technique (myectomy vs alcohol ablation)</li>
+                <li>• Detection of myocardial perfusion abnormalities</li>
+                <li>• Screening of family members</li>
+              </ul>
+            </div>
+
+            <div className="mb-4">
+              <h3 className="font-semibold text-gray-800 text-sm mb-2">Cardiac MRI</h3>
+              <ul className="text-sm text-gray-700 space-y-1">
+                <li>• Distinguishing HCM from mimics and hypertensive cardiomyopathy</li>
+                <li>• Precise wall thickness, LA volume, LV volume, EF</li>
+                <li>• Identification of high-risk features (apical aneurysm, mid-LV)</li>
+                <li>• Detection of LV abnormalities in gene-positive/phenotype-negative</li>
+                <li>• Detection of MV and papillary muscle abnormalities</li>
+                <li>• Late gadolinium enhancement — extent of fibrosis for SCD risk</li>
+                <li>• Assessment of improving or worsening disease</li>
+              </ul>
+            </div>
+
+            <div className="p-3 bg-gray-50 rounded-lg border border-gray-200">
+              <h3 className="font-semibold text-gray-800 text-sm mb-2">Cardiac CT</h3>
+              <ul className="text-sm text-gray-700 space-y-1">
+                <li>• Epicardial coronary artery disease and myocardial bridging</li>
+                <li>• Ventricular volumes, wall thickness, EF</li>
+                <li>• Fibrosis evaluation when CMR contraindicated</li>
+                <li>• Requires radiation</li>
+              </ul>
+            </div>
+          </div>
         </div>
       )}
 
@@ -351,6 +398,33 @@ export default function DiagnosisPage() {
                 <li>• <strong>Ongoing clinical screening NOT indicated</strong> in genotype-negative relatives of genotype-positive HCM unless variant is reclassified.</li>
               </ul>
             </div>
+
+            <div className="mt-4 p-3 bg-indigo-50 rounded-lg border border-indigo-200">
+              <h3 className="font-semibold text-indigo-800 text-sm">Sarcomeric Gene Variants in HCM</h3>
+              <p className="text-xs text-gray-500 mt-1 mb-2">Braunwald, NEJM 2025</p>
+              <ul className="text-xs text-gray-700 space-y-1">
+                <li>• At least <strong>8 genes encoding sarcomeric proteins</strong> are causal for HCM</li>
+                <li>• <strong>MYBPC3 (~45%)</strong> and <strong>MYH7 (~35%)</strong> are the most common on multigenic panels</li>
+                <li>• Pathogenic variants modify calcium sensitivity, actomyosin contractile mechanisms, energy metabolism, and mitochondrial function</li>
+              </ul>
+            </div>
+
+            <div className="mt-3 p-3 bg-indigo-50 rounded-lg border border-indigo-200">
+              <h3 className="font-semibold text-indigo-800 text-sm">Genotype–Phenotype Correlations</h3>
+              <ul className="text-xs text-gray-700 space-y-1 mt-1">
+                <li>• <strong>Gene-positive + phenotype-positive:</strong> earlier onset of overt HCM, more frequent arrhythmias and heart failure</li>
+                <li>• <strong>Gene-negative + phenotype-positive:</strong> later onset, generally less severe clinical course</li>
+              </ul>
+            </div>
+
+            <div className="mt-3 p-3 bg-indigo-50 rounded-lg border border-indigo-200">
+              <h3 className="font-semibold text-indigo-800 text-sm">SHaRE Registry Data</h3>
+              <ul className="text-xs text-gray-700 space-y-1 mt-1">
+                <li>• Patients with LV dysfunction had greater prevalence of pathogenic sarcomeric variants</li>
+                <li>• Thicker walls and greater LA dilation in gene-positive LV dysfunction cohort</li>
+                <li>• Higher incidence of death, stroke, and atrial fibrillation</li>
+              </ul>
+            </div>
           </div>
         </div>
       )}
@@ -384,6 +458,18 @@ export default function DiagnosisPage() {
                 <li>• Sudden death in genotype-positive, phenotype-negative individuals is rare</li>
                 <li>• No arrhythmic events observed in a prospective registry of 126 such individuals</li>
                 <li>• Not restricted from competitive sports; not routinely monitored with ambulatory ECG</li>
+              </ul>
+            </div>
+
+            <div className="mt-4 p-3 bg-indigo-50 rounded-lg border border-indigo-200">
+              <h3 className="font-semibold text-indigo-800 text-sm">Variable Penetrance &amp; Long-Term Follow-Up</h3>
+              <p className="text-xs text-gray-500 mt-1 mb-2">Braunwald, NEJM 2025</p>
+              <ul className="text-xs text-gray-700 space-y-1">
+                <li>• Not all gene-positive individuals become phenotype-positive — <strong>variable penetrance and expressivity</strong> are the rule</li>
+                <li>• Careful follow-up is needed: <strong>children every 1–2 years</strong>, <strong>adults every 3–5 years</strong></li>
+                <li>• Phenotype conversion risk persists — patients can convert at any age</li>
+                <li>• <strong>Competitive sports participation is reasonable</strong> (Class 2a)</li>
+                <li>• <strong>ICD is NOT recommended</strong> for primary prevention in this group (Class 3: No Benefit)</li>
               </ul>
             </div>
           </div>
